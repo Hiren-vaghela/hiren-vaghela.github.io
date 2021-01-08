@@ -68045,7 +68045,7 @@ function create_fragment(ctx) {
 	};
 }
 
-const jsonPath = "/__json__/";
+const jsonPath = "__json__/";
 
 function instance($$self, $$props, $$invalidate) {
 	let { title } = $$props;
