@@ -2,7 +2,7 @@
   "title": "create mail order",
   "description": "",
   "permalink": "t~mail~order~management~apis~create~mail~order~api~post~partner~createmailorder",
-  "uuid": "jWd5CGVIRwyv2Xx1f45Il",
+  "uuid": "qYXLXVFim07x1sapRJUci",
   "method": "POST",
   "path": "/partner/createMailOrder",
   "pathTemplate": "/partner/createMailOrder",
@@ -43,7 +43,7 @@
           }
         ],
         "body": " {\n      \"domainName\": \"domain name\",\n      \"customerId\": \"Unique customer Id on your side for this customer\",\n      \"customerName\": \"customer name\",\n      \"customerEmailAddress\": \"customer email address\",\n      \"customerCountry\" : \"< 2 letter ISO CODE, e.g. US>\",\n      \"planType\": \"pro_trial | pro | premium\",\n      \"noOfAccounts\": \"<Total no of accounts to be allowed>\",\n      \"expiryDate\": \"YYYY-MM-DD\",\n      \"amountCharged\" : \"<Amount In Cents>\",\n      \"currency\" : \"USD\",\n      \"source\" : \"hosting\",\n      \"locale\" : \"en|en-gb|pt-br|tr|es|fr|ru-ru|ru-ua|vi|id|sv\",\n      \"metadata\" : {\n      \"hostingOrderExpiryDate\": \"<Expiry date of associated order associated with this domain in your system>\",\n      \"hostingOrderPlanType\" : \"<Plan type of hosting order associated with this domain in your system>\"\n      }\n}\n",
-        "schema": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"amountCharged\": {\n      \"type\": \"number\"\n    },\n    \"domainName\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+        "schema": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"type\": \"object\"\n}"
       },
       "response": {
         "title": "",
