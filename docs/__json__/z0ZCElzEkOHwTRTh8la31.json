@@ -1,0 +1,66 @@
+{
+  "title": "modify mail order",
+  "description": "",
+  "permalink": "t~mail~order~management~apis~modify~mail~order~api~post~partner~modifymailorder",
+  "uuid": "z0ZCElzEkOHwTRTh8la31",
+  "method": "POST",
+  "path": "/partner/modifyMailOrder",
+  "pathTemplate": "/partner/modifyMailOrder",
+  "parameters": [],
+  "meta": {
+    "resource": {
+      "title": "Modify Mail Order API",
+      "permalink": "r~mail~order~management~apis~modify~mail~order~api"
+    },
+    "group": {
+      "title": "Mail Order Management APIs",
+      "permalink": "g~mail~order~management~apis"
+    }
+  },
+  "transactions": [
+    {
+      "request": {
+        "title": "",
+        "description": "",
+        "method": "POST",
+        "contentType": "application/json",
+        "headers": [
+          {
+            "name": "Authorization",
+            "example": "API.Key-HERE",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Content-Type",
+            "example": "application/json",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "body": "{\n      “titanOrderId” : “<Titan Mail generated unique ID>”\n      “planType”:”pro_trial | pro | premium”\n      “noOfAccounts”: <Total no of accounts after modification>\n      “action”: “upgradeOrder”, “addAccounts”, “reduceAccounts”, “renewOrder” , “supportLedUpgrade”,“supportLedExtension”\n      “expiryDate: “YYYY-MM-DD”,\n      “amountCharged” : “<Amount In Cents>”,\n      “currency” : “USD”\n}\n"
+      },
+      "response": {
+        "title": "",
+        "description": "",
+        "statusCode": "200",
+        "contentType": "application/json",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "example": "application/json",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "body": "{}\n"
+      }
+    }
+  ]
+}
