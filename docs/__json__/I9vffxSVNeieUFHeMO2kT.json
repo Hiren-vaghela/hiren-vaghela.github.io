@@ -42,7 +42,7 @@
             }
           }
         ],
-        "body": "{\n      “titanOrderId” : “<Titan Mail generated unique ID>”\n      “planType”:”pro_trial | pro | premium”\n      “noOfAccounts”: <Total no of accounts after modification>\n      “action”: “upgradeOrder”, “addAccounts”, “reduceAccounts”, “renewOrder” , “supportLedUpgrade”,“supportLedExtension”\n      “expiryDate: “YYYY-MM-DD”,\n      “amountCharged” : “<Amount In Cents>”,\n      “currency” : “USD”\n}\n"
+       "body": "{\n      \"titanOrderId\" : \"<Titan Mail generated unique ID>\"\n      \"planType\" : \"pro_trial | pro | premium\"\n      \"noOfAccounts\" : \"<Total no of accounts after modification>\"\n      \"action\": \"upgradeOrder\",\n      \"expiryDate\": \"YYYY-MM-DD\",\n      \"amountCharged\" : \"<Amount In Cents>\",\n      \"currency\" : \"USD\"\n}\n"
       },
       "response": {
         "title": "",
